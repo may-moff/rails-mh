@@ -4,15 +4,16 @@ body, html {
 
 .banner {
   /* The image used */
-  background-image: url("trio40.png");
+  background-image: url("trio38.png");
+  opacity: 0.9;
 
   /* Full height */
-  height: 75%;
+  height: 90%;
 
   /* Center and scale the image nicely */
   position: relative;
   // opacity: 0.65;
-  // DO NOT USE THIS!!!! background-position: center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -36,16 +37,27 @@ body, html {
   font-weight: bold;
   color: rgb(250, 250, 250);
   text-shadow: 3px 3px 10px #1B2432;
+
 }
 .caption {
   position: absolute;
-  left: 50px;
-  top: 20%;
+  margin-top: 60px;
+  // left: 300px;
+  top: 30%;
   width: 100%;
-  text-align: left;
+  text-align: center;
   color: #000;
 }
 
+.welcome {
+  position: absolute;
+  margin-top: 150px;
+  // left: 50px;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
 
 
 

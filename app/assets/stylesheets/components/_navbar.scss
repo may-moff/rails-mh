@@ -1,12 +1,29 @@
-.navbar-lewagon {
-  justify-content: space-between;
-  background: white;
+// .navbar-lewagon {
+//   justify-content: space-between;
+//   background: white;
+// }
+
+// .navbar-lewagon .navbar-collapse {
+//   flex-grow: 0;
+// }
+
+// .navbar-lewagon .navbar-brand img {
+//   width: 40px;
+// }
+
+.navbar {
+  display: flex !important;
+  width: 100% !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  // height: 48px !important;
+  overflow: hidden !important;
+  background-color: black !important;
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
-}
-
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.nav-item {
+  font-family: "Raleway";
+  font-size: 17px !important;
+  color: white !important;
+  margin-right: 15px !important;
 }
