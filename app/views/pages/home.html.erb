@@ -1,6 +1,4 @@
-<!--
-<div class="banner" style="background-image: url('<#%= image_path 'trio40.png' %>')"> -->
-
+<!-- This is where home section begins, i.e. banner and short intro -->
 <div class="banner" id="home">
   <div class="caption">
     <!--   <div class="box" id="home"> -->
@@ -30,47 +28,69 @@
   </div>
 </div>
 
-
-<div class="box" id="about">
-<div class="container">
-<div id="accordion">
-<div class="cards">
-  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/assets/Trio48)"><button class="btn btn-bio" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+<!-- This is where "Die Herrn" beginns -->
+<div class="section-bio" id="about">
+  <div class="container">
+    <div id="accordion">
+      <div class="cards cards-three">
+        <div class="card-bio" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/assets/Trio48)"><button class="btn btn-bio" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
           Jan Damitz
         </button>
-    </div>
+        </div>
 
-   <div id="collapseOne" class="collapse in" aria-labelledby="headingOne" data-parent="#accordion">
-      <div class="card-body">
-        Obwohl Jan eigentlich etwas ordentliches gelernt hat (nähmlich Lokomotivschlosser), hielt ihn dies nicht davon ab, Schauspieler zu werden.
-          Jan absolierte die externe Schauspielausbildung "Ernst Busch" in Berlin und erlangte 1994 die staatliche Buehnenreife.
-          Seitdem arbeitet Jan als freier Schauspieler, Sänger, Vorleser und Sprecher u.a. im Landestheater Parchim, Theatersommer Netzeband, sowie auch für Film und Fernsehen. 2009 gründete er Meine Herrn.
-      </div>
-    </div>
+        <div id="collapseOne" class="collapse in" aria-labelledby="headingOne" data-parent="#accordion">
+          <div class="card-bio-body">
+            <h5>Jan Damitz</h5>
+            Obwohl Jan eigentlich etwas ordentliches gelernt hat (nähmlich Lokomotivschlosser), hielt ihn dies nicht davon ab, Schauspieler zu werden.
+            Jan absolierte die externe Schauspielausbildung "Ernst Busch" in Berlin und erlangte 1994 die staatliche Buehnenreife.
+            Seitdem arbeitet Jan als freier Schauspieler, Sänger, Vorleser und Sprecher u.a. im Landestheater Parchim, Theatersommer Netzeband, sowie auch für Film und Fernsehen. 2009 gründete er Meine Herrn.
+          </div>
+        </div>
 
-  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/assets/Trio47)"><button class="btn btn-bio" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <div class="card-bio" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/assets/Trio47)"><button class="btn btn-bio" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
           Carl Kossmer
         </button>
-    </div>
+        </div>
 
-   <div id="collapseTwo" class="collapse in" aria-labelledby="headingTwo" data-parent="#accordion">
-      <div class="card-body">
-        Carl ist der Mann für die ganz großen Instrumente und der Kontrabassist bei den Herrn. Er studierte Jazz-Kontrabass am Prins Claus Conservatorium in Groningen zog 2013 als firsch gebackener Bachelor of Music nach Berlin. Seitdem arbeitet er mit vielen verschiedenen Musikern zusammen, u.a. Ickar Flyer und Alice Phoebe Lou, und spielt entweder Kontrabass oder E-Bass in verschiedenen musikalischen Projekten. Seit 2017 ist er bei den Herrn dabei.
-      </div>
-    </div>
+        <div id="collapseTwo" class="collapse in" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-bio-body">
+            <h5>Carl Kossmer</h5>
+            Carl ist der Mann für die ganz großen Instrumente und der Kontrabassist bei den Herrn. Er studierte Jazz-Kontrabass am Prins Claus Conservatorium in Groningen zog 2013 als firsch gebackener Bachelor of Music nach Berlin. Seitdem arbeitet er mit vielen verschiedenen Musikern zusammen, u.a. Ickar Flyer und Alice Phoebe Lou, und spielt entweder Kontrabass oder E-Bass in verschiedenen musikalischen Projekten. Seit 2017 ist er bei den Herrn dabei.
+          </div>
+        </div>
 
-  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/assets/Trio44)"><button class="btn btn-bio" id="headingThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <div class="card-bio" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/assets/Trio44)"><button class="btn btn-bio" id="headingThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
           Lars Breitinger
         </button>
-    </div>
+        </div>
 
-   <div id="collapseThree" class="collapse in" aria-labelledby="headingThree" data-parent="#accordion">
-      <div class="card-body">
-         Nachdem Lars schon in seiner Kindheit von Steve Morse, Jimmy Page und Stevie Ray Vaughan beeinflusst wurde, begann er 2010 an der Hochschule Osnabrück E-Gitarre im Fachbereich Popularmusik zu studieren. Mit dem Abschluss in der Tasche machte er sich auf nach Berlin und ist seitdem als Session-, Live- und Studiogitarrist in verschiedensten Projekten aus dem Rock, Pop und Jazzbereich aktiv. Seit 2020 ist er Gitarrist bei „Meine Herr’n!“
-
+        <div id="collapseThree" class="collapse in" aria-labelledby="headingThree" data-parent="#accordion">
+          <div class="card-bio-body">
+            <h5>Lars Breitinger</h5>
+            Nachdem Lars schon in seiner Kindheit von Steve Morse, Jimmy Page und Stevie Ray Vaughan beeinflusst wurde, begann er 2010 an der Hochschule Osnabrück E-Gitarre im Fachbereich Popularmusik zu studieren. Mit dem Abschluss in der Tasche machte er sich auf nach Berlin und ist seitdem als Session-, Live- und Studiogitarrist in verschiedensten Projekten aus dem Rock, Pop und Jazzbereich aktiv. Seit 2020 ist er Gitarrist bei „Meine Herr’n!“
+          </div>
+        </div>
       </div>
     </div>
+  </div>
 </div>
+
+<!-- This is where "Programme" begins  -->
+
+<div class="section-programms" id="about">
+  <div class="container">
+    <div class="programm-header">
+      <h1>Ein Abend voller Swing, Jazz und Blues></h1>
+      <h3>Jawohl, meine Herr'n...</h3>
+    </div>
+  </div>
 </div>
-</div>
-</div>
+
+
+
+
+
+
+
+
+
