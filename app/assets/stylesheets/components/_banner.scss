@@ -68,15 +68,35 @@ body, html {
   text-align: center;
   color: #000;
 
+
 }
 
 .welcome h3 {
   font-family: "Comfortaa" !important;
-
 }
 
+.logo-white {
+  background-image: url("logo-white.png");
+  // height: 30%;
+  top: 30%;
+  width: 320px;
+  position: relative;
 
+  background-size: cover;
+  // background-position: center;
+  margin-left: 675px;
+  margin-top: 230px;
+    background-repeat: no-repeat;
 
+  display: flex;
+  // align-items: center;
+  // justify-content: center;
+}
+
+.logo-white h1 {
+  color: transparent;
+  text-shadow: none !important;
+}
 
 
 
